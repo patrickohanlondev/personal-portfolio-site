@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.layout-container {
+  position: absolute;
+  width: 80rem;
+  height: 55rem;
+  top: 50%;
+  margin-top: -27.5rem;
+  left: 50%;
+  margin-left: -40rem;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 10rem;
+  width: 61rem;
+}
+
+.title {
+  margin-top: -1.3rem;
+  font-size: 6rem;
+  font-family: 'Averia Serif Libre', cursive;
+  letter-spacing: 0.84rem;
+}
+
+.subtitle {
+  font-size: 1.9rem;
+  font-family: 'Coming Soon', cursive;
+  color: grey;
+}
+
+.info-container {
+  position: absolute;
+  display: flex;
+  bottom: 0rem;
+  height: 43rem;
+  width: 60rem;
+  box-shadow: 0rem 0rem 0.5rem 0.2rem rgba(0, 0, 0, 0.05) ;
+  border-radius: 0.8rem;
+}
+
+.about {
+  display: flex;
+  flex: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  color: gray;
+  font-weight: 300;
+}
+
+p {
+  padding: 2.2rem;
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 1.2rem;
+}
+
+.photo-container {
+  flex: 1;
+}
+
+.photo {
+  width: 30rem;
+  object-fit: cover;
+  border-radius: 0rem 0.8rem 0.8rem 0rem;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 21.5rem;
+  width: 18rem;
+  bottom: 0rem;
+  right: 0rem;
+}
+
+button {
+  border: 1px solid grey;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: lightgreen;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.projects-button {
+  flex: 1;
+  margin-bottom: -1px;
+}
+
+.github-button {
+  flex: 1;
+  margin-bottom: -1px;
+}
+
+.contact-button {
+  flex: 1;
+}
