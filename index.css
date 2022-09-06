@@ -11,6 +11,8 @@ body {
   margin-top: -27.5rem;
   left: 50%;
   margin-left: -40rem;
+  zoom: 0.85;
+  -moz-transform: scale(0.85);
 }
 
 .title-container {
